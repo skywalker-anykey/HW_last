@@ -35,6 +35,8 @@ http://localhost:8080/news/comment
 
 ## News
 
+Используется БД Sqlite3
+
 ### Настройки по умолчанию:
 - Файл с настройками: News.yaml
 - Переменная окружения для переопределения пути: NEWS_CONFIG_PATH
@@ -54,6 +56,8 @@ http://localhost:8081/news/id?id=https://habr.com/ru/companies/ruvds/articles/87
 http://localhost:8081/news/filter?s=go&page=1
 
 ## Comments
+
+Используется БД Sqlite3
 
 ### Настройки по умолчанию:
 - Файл с настройками: Comments.yaml
