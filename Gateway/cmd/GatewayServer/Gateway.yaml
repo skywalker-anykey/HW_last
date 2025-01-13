@@ -1,0 +1,10 @@
+# Уровень логов. Возможные опции: dev, prod
+env: "dev"
+# Настройка HTTP сервера
+http_server:
+  # Адрес и порт сервера
+  address: ":8080"
+# Адрес и порт сервера новостей
+news_server: "http://localhost:8081"
+# Адрес и порт сервера комментариев
+comments_server: "http://localhost:8082"

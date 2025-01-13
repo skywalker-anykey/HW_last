@@ -1,0 +1,8 @@
+# Уровень логов. Возможные опции: dev, prod
+env: "dev"
+# Настройка HTTP сервера
+http_server:
+  # Адрес и порт сервера
+  address: ":8082"
+# Адрес и порт сервера цензуры
+censor_server: "http://localhost:8083"
