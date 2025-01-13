@@ -28,12 +28,10 @@ http://localhost:8080/news/id?id=https://habr.com/ru/companies/ruvds/articles/87
 
 http://localhost:8080/news/comment
 
-<code>
-{
+<code>{
 "news_id": "https://habr.com/ru/companies/ruvds/articles/872068/",
 "content": "Тестовый комментарий йцукен"
-}
-</code>
+}</code>
 
 ## News
 
@@ -72,12 +70,10 @@ http://localhost:8082/comment?news_id=https://habr.com/ru/companies/ruvds/articl
 
 http://localhost:8082/comment
 
-<code>
-{
+<code>{
 "news_id": "https://habr.com/ru/companies/ruvds/articles/872068/",
 "content": "Тестовый комментарий йцукен"
-}
-</code>
+}</code>
 
 ## Censor
 
@@ -92,8 +88,6 @@ http://localhost:8082/comment
 
 http://localhost:8083/censor
 
-<code>
-{
+<code>{
 "content": "Тестовый комментарий йцукен"
-}
-</code>
+}</code>
